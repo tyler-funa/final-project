@@ -46,6 +46,49 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+/*body*/
+
 body {
   background-color: black;
+  color: white;
+	height: 100vh;
+	width: 100vw;
 }
+
+/* Nav Bar */
+.logo {
+	height: 60px;
+	width: 142px;
+}
+.nav-bar {
+	width: 100%;
+	overflow: hidden;
+	height: 63px;
+}
+.top {
+	background-color: #2f2e2e;
+}
+.bottom {
+	background-color: #0c0c0c
+}
+.nav-item {
+	float: left
+}
+.text {
+	padding-top: 18px;
+	padding-right: 22px;
+	font-size: 24px;
+	font-weight: 400;
+	/* neeed to change the font */
+}
+/* background images */
+.snowy-boi {
+	background-image: url("/img/bigSmokyBoys.webp");
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
