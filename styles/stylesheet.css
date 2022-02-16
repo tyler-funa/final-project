@@ -72,23 +72,38 @@ h1 {
 }
 /* rows & columms */
 
-
-/* place holder
 .row {
-
+	background-color: #3e403F;
+	height: 534px;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
-*/
+
+
 .colx2 {
+	padding-top: 4em;
 	float: left;
 	width: 50%;
+	height: 534px;
 }
+
+.inner-Row {
+	height: 534px;
+	width: 1440px;
+	margin: auto;
+}
+
+
 
 /*form*/
 
 form {
-	padding: 1em;
-	border: 1px solid #ccc;
-	margin: 0 auto;
+	padding-top: 5em;
+	float: left;
+	height: 400px;
 }
 
 form li + li {
@@ -97,7 +112,7 @@ form li + li {
 
 label {
 	display: inline-block;
-	width: 90px;
+	width: 100px;
 	text-align: right;
 }
 input,
@@ -106,7 +121,7 @@ textarea {
 	width: 300px;
 	box-sizing: border-box;
 	border: 1px solid #999;
-	background-color: rgba(59,61,62,60%)
+	background-color: rgba(78, 92, 86, 0.2)
 }
 input:focus,
 textarea:focus {
@@ -172,12 +187,14 @@ a:hover {
 	width: 100%;
 	background-size: cover;
 }
+
 .city-girl {
 	background-image: url("/img/buildingBoy.webp");
 	min-height: calc(100vh - 120px);
 	width: 100%;
 	background-size: cover;
 }
+
 .rocky-hills {
 	background-image: url("/img/rockyTerrain.webp");
 	min-height: calc(100vh - 120px);
