@@ -182,21 +182,21 @@ a:hover {
 
 /* background images */
 .snowy-boi {
-	background-image: url("/img/bigSmokyBoys.webp");
+	background-image: url("./img/bigSmokyBoys.webp");
 	min-height: calc(100vh - 120px);
 	width: 100%;
 	background-size: cover;
 }
 
 .city-girl {
-	background-image: url("/img/buildingBoy.webp");
+	background-image: url("./img/buildingBoy.webp");
 	min-height: calc(100vh - 120px);
 	width: 100%;
 	background-size: cover;
 }
 
 .rocky-hills {
-	background-image: url("/img/rockyTerrain.webp");
+	background-image: url("./img/rockyTerrain.webp");
 	min-height: calc(100vh - 120px);
 	width: 100%;
 	background-size: cover;
