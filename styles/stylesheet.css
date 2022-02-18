@@ -51,8 +51,8 @@ html {
 	height: 100%;
 }
 
-
 /*body*/
+
 
 body {
   background-color: black;
@@ -72,7 +72,9 @@ h1 {
 	padding-top: 20px;
 	margin-bottom: 10px;
 }
+
 /* rows & columms */
+
 
 .row {
 
@@ -84,12 +86,9 @@ h1 {
   transform: translateY(-50%);
 
 }
-
 .contact-row {
 	background-image: radial-gradient(#858787, #080A0B);
 }
-
-
 .colx2 {
 	float: left;
 	width: 50%;
@@ -102,9 +101,8 @@ h1 {
 	margin: auto;
 }
 
-
-
 /*form*/
+
 
 form {
 	margin: 0 auto;
@@ -160,13 +158,8 @@ button:hover {
 	background-color:#9C0202
 }
 
-
-
-
-
-
-
 /* Nav Bar */
+
 
 .logo {
 	height: 60px;
@@ -197,8 +190,8 @@ button:hover {
 	font-weight: 400;
 }
 
-
 /* nav link styling */
+
 
 a {
 	color: white;
@@ -208,27 +201,24 @@ a:hover {
 	color: #9C0202;
 }
 
-
 /* background images */
+
+
 .snowy-boi {
 	background-image: url("../img/bigSmokyBoys.webp");
 	min-height: calc(100vh - 120px);
 	width: 100%;
 	background-size: cover;
 }
-
 .city-girl {
 	background-image: url("../img/buildingBoy.webp");
 	min-height: calc(100vh - 120px);
 	width: 100%;
 	background-size: cover;
 }
-
 .rocky-hills {
 	background-image: url("../img/rockyTerrain.webp");
 	min-height: calc(100vh - 120px);
 	width: 100%;
 	background-size: cover;
 }
-
-
