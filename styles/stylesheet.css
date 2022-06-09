@@ -64,9 +64,11 @@ body {
 	height: 100vh;
 	font-family: roboto;
 }
+
 .topWrapper {
 	display: table-row-group;
 }
+
 h1 {
 	font-size: 40px;
 	padding-top: 20px;
